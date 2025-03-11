@@ -1,4 +1,17 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 body {
   font-family: "Livvic", sans-serif;
   font-size: 16px;
@@ -19,13 +32,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-.container {
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 h1,
