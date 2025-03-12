@@ -351,10 +351,18 @@ h6 {
   padding: 80px 0;
   text-align: center;
 
-
   @media (max-width: $breakpoint-md) {
     flex-direction: column;
     gap: 24px;
+  }
+}
+.Again {
+  display: flex;
+  justify-content: space-between;
+  a {
+    padding: 11px 32px 9px;
+    border: 2px solid var.$color-dark;
+    color: var.$color-darker;
   }
 }
 
